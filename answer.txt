@@ -1,0 +1,76 @@
+3. Clone that repo to your computer.
+
+I first accessed my Week 1 file with cd command
+Then :
+git clone https://github.com/audedef/IronAude.git
+
+
+4. Create a file in that folder. Name it about.txt and add a fun fact about yourself. 
+
+cd IronAude
+touch aboutaude.txt
+echo "blablabla" > aboutaude.txt
+
+
+
+5. Add the file you just created to the git.
+
+git add aboutaude.txt
+
+
+6. Commit the changes.
+
+git commit -m "fun fact about me"
+
+
+7. Push the changes to the GitHub and check your repository to make sure everything is there.
+
+git push origin master
+
+ERROR :
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/audedef/IronAude.git'
+(doesn't understand)
+
+
+
+PAIR PROGRAMING
+
+2. Clone the repository, so that you have it locally and can make changes.
+
+git clone https://github.com/audedef/IronDmitry.git
+
+
+3. Create a new branch named classmate.
+
+git checkout -b classmate
+
+
+4. Create a new file with your name (ex. maya.txt) and finish the following sentence I enrolled Ironhack's Data Analytics bootcamp because.... When you are done, save the changes.
+
+touch aude.txt
+echo "I enrolled Ironhack's Data Analytics bootcamp because.... I want to gain expertise in my current job" > aude.txt
+
+
+5. Add the changes to the git.
+
+git add aude.txt
+
+6. Commit and push the changes.
+
+git commit -m "pair programming ex"
+git push origin master
+
+ERROR :
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/audedef/IronAude.git'
+(doesn't understand)
+
+
+7. Create a pull request to make changes appear in the original repository.
+Doesn't work because previous step didn't succeed
+
+
+
+
+
