@@ -32,6 +32,11 @@ error: src refspec master does not match any
 error: failed to push some refs to 'https://github.com/audedef/IronAude.git'
 (doesn't understand)
 
+So I tried 
+git push --set-upstream origin classmate
+
+it worked 
+
 
 
 PAIR PROGRAMING
@@ -66,9 +71,19 @@ error: src refspec master does not match any
 error: failed to push some refs to 'https://github.com/audedef/IronAude.git'
 (doesn't understand)
 
+I tried git push and it worked.
+
 
 7. Create a pull request to make changes appear in the original repository.
-Doesn't work because previous step didn't succeed
+I pushed my commits in the wrong file "IronAude". So I moved my files from IronAude to my forked repo, IronDmitry. Then I didi again : 
+git add aude.txt 
+git commit -m "second try"
+git push 
+
+And it worked :) : I got my files in my forked repo in GitHub. So i was able to create a pull request to Dmitry for my two files. And the merge worked !
+
+
+
 
 
 
